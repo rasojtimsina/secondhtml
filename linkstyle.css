@@ -27,4 +27,5 @@ main {
   border-radius: 5px;
 }
 .profile_card span {
+  font-style: italic;
 }
