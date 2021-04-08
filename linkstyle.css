@@ -1,0 +1,30 @@
+body {
+}
+main {
+  height: 97%;
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.inner_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.medium_img {
+  width: 100px;
+  border-radius: 50%;
+}
+.profile_card {
+  border: 1px solid lightgray;
+  width: 200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 2px 2px 5px 1px lightgrey;
+  border-radius: 5px;
+}
+.profile_card span {
+}
