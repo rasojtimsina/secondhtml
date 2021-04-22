@@ -2,10 +2,11 @@ body {
 }
 main {
   height: 97%;
-  border: 1px solid red;
+  border: 10px solid red;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-evenly;
+  overflow-x: scroll;
 }
 .inner_container {
   display: flex;
@@ -28,4 +29,9 @@ main {
 }
 .profile_card span {
   font-style: italic;
+}
+div {
+  display: flex;
+  width: fit-content;
+  /* width: -moz-fit-content; */
 }
